@@ -5,7 +5,7 @@
 This repository contains the implementation of the **Awareness Hierarchical Model (AHM)**, a mathematical framework designed to unify human rationality and cognitive biases through a four-stage cognitive processing hierarchy: **Perceptual**, **Representational**, **Appraisal**, and **Intentional**. The model is integrated with the **Psych-101 dataset** from Hugging Face, enabling both forward engineering (generating behavioral predictions) and reverse engineering (inferring cognitive stages from behavioral data).
 
 #### Key Features
-- **Four-Stage Cognitive Model**: Implements the AHM as described in the manuscript *"Mathematical Framework Unifies Human Rationality and Cognitive Biases"*, with precise awareness levels (Intentional: 0.84±0.15, Perceptual: 0.81±0.12, Representational: 0.73±0.18, Appraisal: 0.68±0.20).
+- **Four-Stage Cognitive Model**: Implements the AHM as described in the manuscript *"Mathematical Framework Unifies Human Rationality and Cognitive Biases"*, with precise awareness levels ( Perceptual: 0.81±0.12, Representational: 0.73±0.18, Appraisal: 0.68±0.20, Intentional: 0.84±0.15,).
 - **Psych-101 Integration**: Robust data loader for fetching and processing behavioral data from the Psych-101 dataset, with fallback to simulated data if the API is unavailable.
 - **Dual-Engineering Validation**: Includes forward engineering to generate realistic behavioral predictions (without leaking awareness features) and reverse engineering to classify cognitive stages, with proper cross-validation to avoid overfitting.
 - **Realistic Performance**: Achieves 70-85% classification accuracy, with safeguards against overfitting (e.g., experimental confounds, noise, and performance bounds checking).
