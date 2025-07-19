@@ -2003,6 +2003,6 @@ consistent, stats = test_manuscript_consistency()
     print("\n🎯 Result: Realistic 70-85% accuracy instead of overfitted 100%")
     print("=" * 70)
     print("For more information about the AHM framework, see the original paper:")
-    print("'Mathematical Framework Unifies Human Rationality and Cognitive Biases'")
+    print("'Zhu, Y. (2025). Mathematical Framework Unifies Rational and Irrational Human Behavior.'")
     print("=" * 70)
 
