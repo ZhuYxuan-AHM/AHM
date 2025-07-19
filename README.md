@@ -62,7 +62,7 @@ This project is licensed under the **MIT License**, allowing free use and modifi
 
 #### Citation
 Please cite the original paper if you use this code in your research:
-> "Mathematical Framework Unifies Human Rationality and Cognitive Biases"
+> "Mathematical Framework Unifies Rational and Irrational Human Behavior"
 
 #### Contributing
 Contributions are welcome! Please submit issues or pull requests for bug fixes, feature enhancements, or additional dataset integrations.
